@@ -14,6 +14,7 @@ name: Docker
 #     tags: [ 'v*.*.*' ]
 #   pull_request:
 #     branches: [ main ]
+on: [push]
 
 env:
   # Use docker.io for Docker Hub if empty
